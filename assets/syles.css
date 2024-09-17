@@ -263,11 +263,11 @@
 
 .section-three .inner-head .inner-title {
   font-size: 24px;
-  margin-bottom: 40px;
 }
 
 .section-three .inner-head .inner-desc {
   font-size: 16px;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 991.98px) {
@@ -307,6 +307,12 @@
 
 .section-four .inner-bg {
   text-align: center;
+}
+
+@media screen and (max-width: 991.98px) {
+  .section-three .inner-bg {
+    margin-top: 25px;
+  }
 }
 
 /* End Section Four */
